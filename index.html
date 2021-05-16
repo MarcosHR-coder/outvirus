@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OutVirus</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="img/logoss.png" alt="TechNews Logo" class="nav-brand">
+      <!-- Left Nav -->
+      <br>
+      <br>
+      <ul class="nav-menu">
+        <li>
+          <a href="#">OutVirus</a>
+        </li>
+        <li>
+          <a href="https://marcoshr-coder.github.io/outvirus-info_v3/">Versión 6</a>
+        </li>
+        <li>
+          <a href="https://marcoshr-coder.github.io/outvirus-info_vpro/">Versión Pro</a>
+        </li>
+        <li>
+          <a href="https://marcoshr-coder.github.io/outvirus-download_v3/">Descargar v5</a>
+        </li>
+        <li>
+          <a href="https://marcoshr-coder.github.io/outvirus-download_vpro/">Descargar vPro</a>
+        </li>
+        <li> <!--
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+        <li>
+          <a href="#">More</a>
+        </li>
+      -->
+      </ul>
+    
+
+      <!-- Right Nav -->
+      <ul class="nav-menu-right">
+        <li>
+          <a onclick="buscar();">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+
+    <!-- SHOWCASE -->
+    <header class="showcase"><!--
+      <h2>Big News Today!</h2> -->
+      <p>El antivirus más rápido de la historia</p>
+      <!--
+      <a href="#" class="btn"> 
+        Mas información <i class="fas fa-chevron-right"></i>
+      </a> -->
+    </header>
+
+    <!-- NEWS CARDS
+    <div class="news-cards">
+      <div>
+        <img src="img/news1.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news2.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news3.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news4.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
+  -->
+    <!-- Card Banner 1-->
+    <section class="cards-banner-three">
+      <div class="content">
+        <h2>Ventajas de usar OutVirus</h2>
+        <br>
+        <!-- lorem 30 -->
+        <p>
+          - Mas seguridad en el equipo
+        </p>
+        <p>
+          - Mas velocidad al renderizar la interfaz
+        </p>
+        <p>
+          - Mas rapidez al usar el producto y al examinar el equipo
+        </p>
+        <p>
+          - Es 100% gratuito
+        </p><!--
+        <a href="https://marcoshr-coder.github.io/outvirus-info_vpro/" class="btn">Mas información<i class="fas fa-chevron-right"></i></a> -->
+      </div>
+    </section>
+
+    <section class="cards-banner-one">
+      <div class="content">
+        <h2>Descubre la Versión 6</h2>
+        <!-- lorem 20 -->
+        <p>Toda la inovación en un único programa</p>
+        <a href="https://marcoshr-coder.github.io/outvirus-info_v3/" class="btn">Mas información<i class="fas fa-chevron-right"></i></a>
+      </div>
+    </section>
+
+    <section class="cards-banner-four">
+      <div class="content">
+        <h2>Descarga la Versión 6 para Mac desde la App Store</h2>
+        <!-- lorem 20 -->
+        <p>Se un pro protegiendo tu Mac</p>
+        <a onclick="mac();" class="btn">Descargar desde la App Store<i class="fas fa-chevron-right"></i></a>
+      </div>
+    </section>
+
+    <!-- NEWS CARDS 
+    <div class="news-cards">
+      <div>
+        <img src="img/news1.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news2.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news3.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news4.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
+  -->
+    <!-- third card -->
+    <section class="cards-banner-two">
+      <div class="content">
+        <h2>Descubre la versión Pro</h2>
+        <!-- lorem 30 -->
+        <p>Solo para Hackers</p>
+        <a href="https://marcoshr-coder.github.io/outvirus-info_vpro/" class="btn">Mas información<i class="fas fa-chevron-right"></i></a>
+      </div>
+    </section>
+
+    <!-- Follow -->
+    <section class="social">
+      <p>¡Síguenos!</p>
+      <div class="links">
+        <a onclick="social();">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a onclick="social();"">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a onclick="social();">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </section>
+  </div>
+<!--
+  <div class="footer-links">
+    <div class="footer-container">
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title One</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title Two</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title Three</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title Four</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+-->
+  <!-- Footer -->
+  <footer class="footer">
+    <h3>Copyright 2021</h3>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
